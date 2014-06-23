@@ -68,11 +68,11 @@ class Healthandsafety extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'healthandsafetyid' => 'Healthandsafetyid',
+			'healthandsafetyid' => 'Healthandsafety id',
 			'note' => 'Note',
-			'actionby' => 'Actionby',
-			'duedate' => 'Duedate',
-			'meetingid' => 'Meetingid',
+			'actionby' => 'Action by',
+			'duedate' => 'Due date',
+			'meetingid' => 'Meeting id',
 		);
 	}
 

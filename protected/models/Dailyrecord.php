@@ -82,10 +82,10 @@ class Dailyrecord extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'dailyrecordid' => 'Dailyrecordid',
+			'dailyrecordid' => 'Daily record id',
 			'wind' => 'Wind',
-			'maxtemp' => 'Maxtemp',
-			'relativehumidity' => 'Relativehumidity',
+			'maxtemp' => 'Max temp',
+			'relativehumidity' => 'Relative humidity',
 			'date' => 'Date',
 			'supervisors' => 'Supervisors',
 			'tradesmen' => 'Tradesmen',
@@ -97,7 +97,7 @@ class Dailyrecord extends CActiveRecord
 			'deliveries' => 'Deliveries',
 			'phonecalls' => 'Phonecalls',
 			'visitors' => 'Visitors',
-			'nonconformance' => 'Nonconformance',
+			'nonconformance' => 'Non conformance',
 			'approved' => 'Approved',
 			'signed' => 'Signed',
 			'projectid' => 'Projectid',

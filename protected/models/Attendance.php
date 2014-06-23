@@ -73,15 +73,15 @@ class Attendance extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'attendanceid' => 'Attendanceid',
+			'attendanceid' => 'Attendance id',
 			'name' => 'Name',
 			'company' => 'Company',
 			'role' => 'Role',
 			'responsibility' => 'Responsibility',
 			'acronym' => 'Acronym',
 			'note' => 'Note',
-			'presentabsent' => 'Presentabsent',
-			'meetingid' => 'Meetingid',
+			'presentabsent' => 'Attended',
+			'meetingid' => 'Meeting id',
 		);
 	}
 

@@ -68,11 +68,11 @@ class Financialmatters extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'financialmattersid' => 'Financialmattersid',
-			'meetingid' => 'Meetingid',
+			'financialmattersid' => 'Financialmatters id',
+			'meetingid' => 'Meeting id',
 			'note' => 'Note',
-			'actionby' => 'Actionby',
-			'duedate' => 'Duedate',
+			'actionby' => 'Action by',
+			'duedate' => 'Due date',
 		);
 	}
 

@@ -71,14 +71,13 @@ class Generalmatters extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'generalmattersid' => 'Generalmattersid',
-			'meetingid' => 'Meetingid',
+			'generalmattersid' => 'General matters id',
+			'meetingid' => 'Meeting id',
 			'name' => 'Name',
 			'ref' => 'Ref',
 			'notes' => 'Notes',
-			'milestonedate' => 'Milestonedate',
-			'milestonedescription' => 'Milestonedescription',
-			'generalmatterscol' => 'Generalmatterscol',
+			'milestonedate' => 'Milestone date',
+			'milestonedescription' => 'Milestone description',
 		);
 	}
 
